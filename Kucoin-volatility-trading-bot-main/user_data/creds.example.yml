@@ -1,0 +1,19 @@
+# Ensure your keys and values have value space between them
+# Example:
+# Bad:
+#   access_key:myaccess_key
+# Good:
+#   access_key: myaccess_key 
+
+
+prod:
+  access_key: access
+  secret_key: secret
+  passphrase: pass
+discord:
+  # You only need the portion after webhooks
+  # i.e. https://discord.com/api/webhooks/XXX/YYYYY ends up being as below
+  # just enter XXX/YYYYY
+  DISCORD_WEBHOOK: XXX/YYYYY
+cryptorank:
+    api_key: api
